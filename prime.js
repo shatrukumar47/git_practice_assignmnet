@@ -1,7 +1,7 @@
 let num = 19;
 let count = 0;
-for(let i=0; i<num; i++){
-      if(i%num==0){
+for(let i=1; i<=num; i++){  // correction in this line
+      if(num%i==0){         // and in this line
          count++;
       }
 }
